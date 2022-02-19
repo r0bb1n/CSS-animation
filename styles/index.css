@@ -1,0 +1,26 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 120px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 540px;
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
