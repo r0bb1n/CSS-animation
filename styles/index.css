@@ -1,5 +1,8 @@
 body {
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -11,7 +14,10 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #caf0f8;
+    width: 80%;
+    border-radius: 10px;
 }
 
 img {
@@ -22,5 +28,25 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 300px;
 }
 
+textarea {
+    border-style: none;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.container__btn {
+    background-color: aquamarine;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+}
