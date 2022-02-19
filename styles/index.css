@@ -75,3 +75,7 @@ textarea:focus {
     transform: translateY(0px);
     box-shadow: 0px 0px;
 }
+
+rect {
+    fill: black;
+}
